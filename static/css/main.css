@@ -54,6 +54,10 @@ body {
   color: #a30000;
 }
 
+.navbar-inverse .navbar-toggle {
+  background-color: #666;
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
