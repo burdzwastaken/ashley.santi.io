@@ -78,15 +78,17 @@ body {
 .carousel .item {
   height: 500px;
 }
+
+/* Large desktop */
 .carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: auto;
-}
-
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    min-width: 1125px;
+    min-height: 500px;
+  }
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
@@ -171,5 +173,53 @@ body {
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 992px) {
+  .carousel-inner > .item > img {
+    left: -18%;
+    min-width: 140%;
+  }
+  .navbar-wrapper .container {
+    padding-right: 5px;
+    padding-left:  5px;
+  }
+}
+
+/* /1* Landscape phone to portrait tablet *1/ */
+@media (max-width: 767px) {
+  .carousel {
+    height: 400px;
+    margin-bottom: 40px;
+  }
+  .carousel .item {
+    height: 400px;
+  }
+  .carousel-inner > .item > img {
+    top: 50px;
+    left: -35%;
+    min-width: 175%;
+    min-height: 0;
+  }
+  .carousel-caption {
+    width: 40%;
+    left: 30%;
+    top: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    height: 300px;
+  }
+  .carousel .item {
+    height: 300px;
+  }
+  .carousel-caption {
+    width: 60%;
+    left: 20%;
+    top: 20px;
   }
 }
