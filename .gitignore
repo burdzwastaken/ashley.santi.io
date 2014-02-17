@@ -35,3 +35,6 @@ nosetests.xml
 .project
 .pydevproject
 .ropeproject
+
+# Apple BS
+.DS_Store
