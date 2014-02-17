@@ -38,7 +38,8 @@ See [the development server documentation](https://developers.google.com/appengi
 for options when running dev_appserver.
 
 ## Contributing changes
-See [CONTRIB.md](CONTRIB.md)
+We *love* contributions! Send us a pull request and we may consider having you
+over for our party.
 
 ## Licensing
 See [LICENSE](LICENSE)
