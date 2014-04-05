@@ -117,6 +117,14 @@ body {
   margin-left: 10px;
 }
 
+/* Tiles
+------------------------- */
+
+a.thumbnail:hover,
+a.thumbnail:focus {
+  text-decoration: none;
+
+}
 
 /* Featurettes
 ------------------------- */
