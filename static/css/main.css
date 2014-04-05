@@ -25,6 +25,7 @@ body {
 .navbar-wrapper .container {
   padding-right: 0;
   padding-left: 0;
+  text-transform: uppercase;
 }
 .navbar-wrapper .navbar {
   padding-right: 15px;
@@ -163,10 +164,6 @@ a.thumbnail:focus {
     padding-left: 0;
   }
 
-  /* Navbar positioning foo */
-  .navbar-wrapper {
-    margin-top: 20px;
-  }
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left:  15px;
@@ -174,11 +171,6 @@ a.thumbnail:focus {
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left:  0;
-  }
-
-  /* The navbar becomes detached from the top, so we round the corners */
-  .navbar-wrapper .navbar {
-    border-radius: 4px;
   }
 
   /* Bump up size of carousel content */
@@ -196,6 +188,9 @@ a.thumbnail:focus {
 @media (min-width: 992px) {
   .featurette-heading {
     margin-top: 120px;
+  }
+  .navbar-wrapper .container {
+    width: 800px;
   }
 }
 
