@@ -5,6 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  background-color: #EEE;
 }
 
 
@@ -33,7 +34,7 @@ body {
 }
 
 .navbar-inverse {
-  background-color: #EEE;
+  background-color: #CCC;
   border-color: #333;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 17px;
@@ -135,10 +136,6 @@ a.thumbnail:focus {
 /* Featurettes
 ------------------------- */
 
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
-}
-
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
@@ -192,7 +189,7 @@ a.thumbnail:focus {
 
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 40px;
   }
   .navbar-wrapper .container {
     width: 800px;
