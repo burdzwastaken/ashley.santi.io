@@ -127,6 +127,9 @@ a.thumbnail:focus {
   text-decoration: none;
 
 }
+.thumbnail > img {
+  margin-top: 10px;
+}
 
 /* Featurettes
 ------------------------- */
@@ -136,6 +139,12 @@ a.thumbnail:focus {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -1px;
+}
+.featurette-image {
+  padding: 0;
+}
+img.featurette-image {
+  width: 100%;
 }
 
 /* 404

@@ -1,6 +1,9 @@
 {% extends "layout.html" %}
 {% block title %}The Wedding{% endblock %}
 
+{% block bottom_js %}
+<script src="static/js/wedding.js"></script>
+{% endblock %}
 {% block content %}
   <div class="container">
     <hr>
@@ -25,16 +28,15 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <img class="featurette-image img-responsive"
-        src="static/images/rings.jpg" alt="punta barranca at night">
+      <div class="col-md-4 featurette-image">
+        <img class="featurette-image" src="static/images/rings.jpg" alt="punta barranca at night">
       </div>
     </div>
 
     <hr>
     <div class="row featurette thumbnail">
-      <div class="col-md-4 featurette-image img-responsive">
-        <img class="featurette-image img-responsive" src="static/images/ceremony.jpg" alt="ceremony">
+      <div class="col-md-4 featurette-image">
+        <img class="featurette-image" src="static/images/ceremony.jpg" alt="ceremony">
       </div>
       <div class="col-md-8">
         <h2 class="featurette-heading">The Ceremony</h2>
@@ -54,15 +56,17 @@
         <p>Comfortable shoes will be provided for the ladies. Food will be
         served throughout the night.</p>
       </div>
-      <div class="col-md-4 featurette-image img-responsive">
-        <img class="featurette-image img-responsive" src="static/images/punta-barranca.png" alt="punta barranca at night">
+      <div class="col-md-4 featurette-image">
+        <img class="featurette-image" src="static/images/punta-barranca.png" alt="punta barranca at night">
       </div>
     </div>
 
     <hr>
     <div class="row featurette thumbnail">
-      <div class="col-md-4 featurette-image img-responsive">
-          <iframe width="360" height="360" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Punta%20Barranca%20-%20David%20Pena%2C%20Rosario%2C%20Santa%20Fe%20Province%2C%20Argentina&key=AIzaSyA5nLHAdfWamhef3rFWK08xVNY0DBJfUbI"></iframe>
+      <div class="col-md-4 featurette-image">
+        <div class="map-featurette-container">
+          <iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Avenida%20Eduardo%20Carrasco%203914%2C%20Rosario%2C%20Santa%20Fe%2C%20Argentina&key=AIzaSyA5nLHAdfWamhef3rFWK08xVNY0DBJfUbI"></iframe> 
+        </div>
       </div>
       <div class="col-md-8">
         <h2 class="featurette-heading">Getting There</h2>
