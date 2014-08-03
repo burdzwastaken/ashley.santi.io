@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+{% block title %}The Wedding{% endblock %}
+
+{% block bottom_js %}
+<script src="static/js/wedding.js"></script>
+{% endblock %}
+{% block content %}
+  <div class="container">
+    <div class="row featurette thumbnail">
+      <div class="col-md-8">
+        <h3 class="featurette-heading">What we have planned!</h3>
+        <br />
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              <strong>8:00pm</strong> - Welcome cocktails<br>
+              <strong>8:30pm</strong> - Ceremony<br>
+              <strong>9:00pm</strong> - Cocktails and live music<br>
+            </p>
+          </div>
+          <div class="col-md-6">
+            <p>
+              <strong>10:30pm</strong> - Asado dinner<br>
+              <strong>12:30am</strong> - Dancing time!<br>
+              <strong>5:00am</strong> - Breakfast (yes, that's right)<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 featurette-image">
+        <img class="featurette-image" src="static/images/rings.jpg" alt="punta barranca at night">
+      </div>
+    </div>
+
+    <div class="row featurette thumbnail">
+      <div class="col-md-4 featurette-image">
+        <img class="featurette-image" src="static/images/ceremony.jpg" alt="ceremony">
+      </div>
+      <div class="col-md-8">
+        <h3 class="featurette-heading">Ceremony</h3>
+        <br />
+        <p>The ceremony, dinner and reception will be held at the same venue, Punta Barranca. When you arrive at 8pm, you'll be greeted with beer, wine and champagne. After a brief ceremony at 8:30pm, we'll kick off the celebration with more drinks and passed appetizers.</p>
+        <p>The ceremony and cocktail hour will be outside on the grass veranda overlooking the Parana River (don't forget, February in Argentina is summertime :-)). During this time, you'll be able to watch the dinner food being cooked in one of the large outdoor Asados. It's quite the sight to see!</p>
+      </div>
+    </div>
+
+    <div class="row featurette thumbnail">
+      <div class="col-md-8">
+        <h3 class="featurette-heading">Dinner & Party</h3>
+        <p class="lead"></p>
+        <p>Around 10pm, we'll head inside for a sit down Asado dinner. For your carnivores, this mean meat, meat & more meat. For the non-meat eaters, don't worry, we will have lots great veggie and fish options for you.</p> 
+        <p>After dinner, we'll enjoy some desserts and then head to the dance floor for a night of dancing - to a live band and a fun DJ. In true Argentinian fashion, we'll be partying until 6am and serving up some breakfast before then to keep you nice and nourished! </p>
+      </div>
+      <div class="col-md-4 featurette-image">
+        <img class="featurette-image" src="static/images/punta-barranca.png" alt="punta barranca at night">
+      </div>
+    </div>
+
+    <div class="row featurette thumbnail">
+      <div class="col-md-4 featurette-image">
+        <div class="map-featurette-container">
+          <iframe width="100%" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Avenida%20Eduardo%20Carrasco%203914%2C%20Rosario%2C%20Santa%20Fe%2C%20Argentina&key=AIzaSyA5nLHAdfWamhef3rFWK08xVNY0DBJfUbI"></iframe> 
+        </div>
+      </div>
+      <div class="col-md-8">
+        <h3 class="featurette-heading">Getting to Punta Barranca</h3>
+        <p>We will arrange transportation from the Holiday Inn for our out-of-town guests. At the end of the night, the folks at Punta Barranca will call you a taxi to take you back to the hotel (please note, cabs take cash only).  
+        <p>The address to Punta Barranca is:<br>
+        <strong>96 David Pe&ntilde;a, Rosario</strong></p>
+        <p>If in need, this is a good provider of taxis:</p>
+        <p><strong>Primera Clase</strong><br>
+        Av. Pellegrini 1421 Locales 08 y 09<br>
+        <strong>Phones:</strong><br>
+        4533981 / 4724520 / 4728257 /
+        4728258 / 4728259 / 4823808
+        </p>
+      </div>
+    </div>
+
+  </div><!-- /.container -->
+{% endblock %}
