@@ -101,12 +101,10 @@ body {
 .carousel-inner > .item > img {
     position: absolute;
     top: 0;
-    left: 0;
-    width: auto;
-    height: auto;
-    min-width: 1125px;
-    min-height: 500px;
-  }
+    left: 50%;
+    margin-left: -800px;
+    min-width: 1600px;
+}
 
 
 /* MARKETING CONTENT
@@ -193,6 +191,7 @@ img.featurette-image {
 @media (min-width: 768px) and (max-width: 992px) {
   .carousel-inner > .item > img {
     left: -18%;
+    margin-left: 0;
     min-width: 140%;
   }
 }
@@ -208,8 +207,9 @@ img.featurette-image {
   }
   .carousel-inner > .item > img {
     top: 50px;
-    left: -35%;
-    min-width: 175%;
+    left: -30%;
+    margin-left: 0;
+    min-width: 160%;
     min-height: 0;
   }
   .carousel-caption {
