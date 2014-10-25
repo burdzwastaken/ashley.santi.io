@@ -1,17 +1,27 @@
 {% extends "layout.html" %}
-{% block title %}Honeymoon Gifts{% endblock %}
+{% block title %}Ashley <3 Santi{% endblock %}
 
 {% block content %}
-<div class="container">
-  <div class="row">
-    <img src="static/images/us-carousel3.jpg" alt="404" class="img-responsive"></img>
-  </div>
-  <div class="not-found col-md-3">
-    <h1>We're heading to Bariloche for our honeymoon. If you'd like to give us a gift, please click below:</h1>
-    <br />
-    	<br />
-    	<br />
-    	<br />
-    	<div><a href="http://www.wanderable.com/hm/ashleysanti" target="_blank"><img alt="My Wanderable Honeymoon Registry" src="http://res.cloudinary.com/wanderable/image/upload/c_scale,w_375/v1398120426/wanderable_hm.jpg"></a></div>
-    </div><!-- /.container -->
+  <!-- Carousel
+  ================================================== -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="container">
+      <div class="carousel-caption carousel-tight">
+        <h1>We favor experiences over gifts!</h1>
+        <br>
+        <p>If you're not joining us in Argentina and would like to celebrate our union, please help our honeymoon be that much more special.</p>
+        <p>(If you're coming to the wedding from the US, no gifts please!)</p>
+        <div><a href="http://www.wanderable.com/hm/ashleysanti" target="_blank"><img alt="My Wanderable Honeymoon Registry" src="http://res.cloudinary.com/wanderable/image/upload/c_scale,w_375/v1398120426/wanderable_hm.jpg"></a></div>
+      </div>
+    </div>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="static/images/us-carousel2.jpg" alt="ashley and santi">
+      </div>
+    </div>
+  </div><!-- /.carousel -->
+
+</div>
+
+  </div><!-- /.container -->
 {% endblock %}
